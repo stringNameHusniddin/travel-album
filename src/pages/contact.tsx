@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='flex items-center justify-center h-full w-full'>
+    <div className='flex items-center justify-center h-[900px] pt-[100px] w-full'>
       <div className='w-8/12 max-[590px]:w-11/12 md:m-11/12 lg:w-8/12 xl:w-9-12 flex flex-col items-center bg-gray-100 h-[600px] py-6 justify-around rounded-md shadow-xl'>
         <input className='w-11/12 rounded px-5 h-[60px] border focus:outline-yellow-400' type="text" placeholder='FISH' />
         <input className='w-11/12 rounded px-5 h-[60px] border focus:outline-yellow-400' type="email" placeholder='Email' />

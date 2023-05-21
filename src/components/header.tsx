@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <div className="flex w-full  h-[80px] items-center bg-white fixed bottom-0 z-50 " >
+        <div className="flex w-full  h-[80px] items-center bg-white fixed top-0 z-50 " >
             <Link to='/' className="flex flex-col items-center justify-center hover:bg-green-400 hover:text-white h-full w-3/12 gap-1">
                 <AiOutlineHome/>
                 <p>Home</p>

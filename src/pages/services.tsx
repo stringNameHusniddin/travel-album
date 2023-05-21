@@ -24,7 +24,7 @@ const services: service[] = [
 
 const Services = () => {
     return (
-        <div className="flex items-center justify-center w-full h-full max-[711px]:mb-[140px]">
+        <div className="flex items-center justify-center w-full pt-[100px] h-[820px] max-[700px]:h-[950px] max-[700px]:pt-[0px]">
             <div className="w-11/12 xl:w-8/12 flex flex-wrap gap-x-5  justify-center items-center h-[580px] max-[710px]:gap-3">
                 {
                     services.map(mal => (

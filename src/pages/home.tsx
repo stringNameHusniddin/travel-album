@@ -2,7 +2,7 @@ import videoBg from '../assets/bg_image_1.mp4'
 
 const Home = () => {
     return (
-        <div className='flex flex-col justify-center h-full items-center w-full '>
+        <div className='flex flex-col justify-center h-[800px] pt-[100px] items-center w-full '>
             <div className='w-11/12 max-[600px]:h-[250px] xl:w-8/12 bg-white h-[500px] rounded-t-md relative flex justify-center items-center shadow-2xl'>
                 <div className='absolute top-0 flex items-center justify-center h-full w-full'>
                     <p className='text-green-500 text-[50px] '>Camping-uz</p>
